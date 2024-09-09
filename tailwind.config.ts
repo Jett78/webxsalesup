@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors:{
+        primary: "#CC1587",
+        secondary: "#26538C",
+        tertiary: "#00AFF0",
+        textlight:"#6B7280",
+      },
+      transitionDuration: {
+        '6000': '6000ms',
       },
     },
   },
