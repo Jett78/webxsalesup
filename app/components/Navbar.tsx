@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const pathname = usePathname()
   return (
-    <main className="z-[200] py-3 px-24 shadow-md flex justify-between items-center">
+    <main className="z-[200] py-3 px-20 shadow-md flex justify-between items-center">
       <Image
         src="/logos/Logo.png"
         alt="logo"
