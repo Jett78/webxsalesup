@@ -8,17 +8,17 @@ const Navbar = () => {
 
     const pathname = usePathname()
   return (
-    <main className="z-[200] py-4 px-24 shadow-md flex justify-between items-center">
+    <main className="z-[200] py-3 px-24 shadow-md flex justify-between items-center">
       <Image
         src="/logos/Logo.png"
         alt="logo"
         height={1000}
         width={1000}
-        className="w-32 h-8"
+        className="w-24 h-6"
       />
 
-      <nav className="flex items-center gap-10 font-semibold text-base text-textlight">
-        <ol className="flex gap-14">
+      <nav className="flex items-center gap-10 font-semibold text-base text-textlight text-[14px]">
+        <ol className="flex gap-10">
             {navdata.map((item,index) => (
                 <li key={index} className="">
                     <Link href={item.path} className={`${pathname === item.path?"text-tertiary":"text-light"}`}>{item.name}</Link>
@@ -54,6 +54,10 @@ const navdata = [
     },
     {
         name:"Blogs",
+        path:"/blogs",
+    },
+    {
+        name:"Reviews",
         path:"/blogs",
     },
 ]

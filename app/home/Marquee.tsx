@@ -27,7 +27,7 @@ const Marquee = () => {
     <main className="w-full mx-auto bg-zinc-950">
         <div className="w-full h-full flex justify-center items-center">
           <div className="flex flex-col w-full h-full justify-center items-center">
-            <div className="font-extrabold border-y-2 py-10 border-zinc-800 overflow-x-hidden w-full uppercase text-[6rem] md:text-[10rem] 3xl:text-[10rem] flex justify-center items-center leading-none overflow-auto whitespace-nowrap">
+            <div className="font-bold border-y-2 py-10 border-zinc-800 overflow-x-hidden w-full uppercase text-[6rem] md:text-[10rem] 3xl:text-[10rem] flex justify-center items-center leading-none overflow-auto whitespace-nowrap">
               <div className="flex marquee gap-5 w-full text-start">
                 <div className="marquee-content title text-zinc-50">
                   <span className="text-loop inline-block">

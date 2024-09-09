@@ -18,7 +18,7 @@ const Branding = () => {
         iusto aperiam tempora.
       </p>
     </div>
-    <div className="h-[80vh]  relative border-tertiary bg-white border rounded-xl  mx-auto p-4 cursor-pointer overflow-hidden group ease-in-out duration-1000">
+    <div className="h-[72vh]  relative  bg-white  rounded-xl  mx-auto p-4 cursor-pointer overflow-hidden group ease-in-out duration-1000">
       <div className="group-hover:-translate-y-[80%] grid gap-10 ease-Out group-hover:duration-6000 duration-700 mx-auto">
         <Image
           src="/Branding/brand1.jpg"

@@ -7,6 +7,7 @@ import SubFooter from './SubFooter'
 import Marquee from './Marquee'
 import CreativeWebsites from './CreativeWebsites'
 import Branding from './Branding'
+import Optimize from './Optimize'
 
 const Page = () => {
   return (
@@ -14,6 +15,7 @@ const Page = () => {
     <HeroSection/>
     <CreativeWebsites/>
     <Branding/>
+    <Optimize/>
     <MobileTemplates/>
     <StandOut/>
     <Testimonials/>

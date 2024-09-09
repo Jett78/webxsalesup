@@ -50,9 +50,9 @@ const CreativeWebsites = () => {
       ))}
     </div>
     {/* bacdrop blur circle top left */}
-    <div className="w-[30em] h-[20em] overflow-hidden rounded-full bg-zinc-400 absolute opacity-40 lef-1/2 top-0 -translate-x-1/2  blur-[150px]"></div>
+    {/* <div className="w-[30em] h-[20em] overflow-hidden rounded-full bg-zinc-400 absolute opacity-40 lef-1/2 top-0 -translate-x-1/2  blur-[150px]"></div>
     <div className="w-[40em] h-[40em] overflow-hidden rounded-full bg-zinc-400 absolute opacity-40 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-[300px]"></div>
-    <div className="w-[30em] h-[25em] overflow-hidden rounded-full bg-zinc-400 absolute opacity-40 -right-[25em] -bottom-60 -translate-x-1/2  blur-[200px]"></div>
+    <div className="w-[30em] h-[25em] overflow-hidden rounded-full bg-zinc-400 absolute opacity-40 -right-[25em] -bottom-60 -translate-x-1/2  blur-[200px]"></div> */}
   </main>
   )
 }

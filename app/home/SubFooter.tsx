@@ -4,7 +4,7 @@ const SubFooter = () => {
   return (
     <main className="relative h-screen flex flex-col justify-center">
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"></div>
-      <div className="text-8xl font-extrabold flex flex-col justify-center items-center">
+      <div className="text-8xl font-bold flex flex-col justify-center items-center">
         <h2>
           Grab <span className="text-gradient">SalesUp</span> now before{" "}
         </h2>
